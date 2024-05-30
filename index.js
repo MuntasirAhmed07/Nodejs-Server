@@ -2,7 +2,7 @@ var fs = require('fs');
 var http = require('http');
 var multer = require('multer');
 
-// Setting up multer for file uploads
+
 var upload = multer({ dest: 'uploads/' });
 
 var server = http.createServer(function(req, res) {
